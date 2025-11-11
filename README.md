@@ -2,10 +2,19 @@
 
 Build reliable, stateful agent workflows with LangGraph. This repository provides a clean starting point to design, run and iterate on graph-based LLM applications (tools, agents, routers, evaluators).
 
+### Included workflows
+This repo includes ready-to-run examples that demonstrate common graph patterns:
+- Simple
+- Sequential
+- Parallel
+- Conditional (branching)
+- Iterative (looping)
+- Simple chatbot
+
 ### Prerequisites
 - Python 3.10 or newer
 
-- An LLM provider key (e.g., `OPENROUTER_API_KEY`, `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`) for the quickstart
+- An LLM provider key (e.g., `OPENROUTER_API_KEY`, `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`)
 
 ### Setup
 1) Clone and enter the project
@@ -38,4 +47,10 @@ OPENROUTER_API_KEY=<YOUR_KEY>
 OPENAI_API_KEY=<YOUR_KEY>
 # or
 ANTHROPIC_API_KEY=<YOUR_KEY>
+```
+
+### Run the examples
+From the repository root:
+```bash
+python LANGGRAPH/<FILE_NAME>.py
 ```
